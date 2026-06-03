@@ -11045,3 +11045,19 @@ html {
 .copyright {
   background-color: var(--bs-dark);
 }
+/* Ajuste de tamanho uniforme para imagens do portfólio */
+.portfolio .portfolio-item {
+  overflow: hidden;
+}
+.portfolio .portfolio-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+@media (max-width: 767.98px) {
+  .portfolio .portfolio-item img {
+    height: 220px;
+  }
+}
+

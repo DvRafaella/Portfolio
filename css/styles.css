@@ -11167,3 +11167,22 @@ html {
   border-color: var(--bs-link-color);
 }
 
+/* Center `.navbar-nav.ms-auto` on large screens */
+@media (min-width: 992px) {
+  .navbar .navbar-collapse {
+    display: flex;
+    justify-content: center !important;
+  }
+  .navbar .navbar-nav.ms-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .navbar .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar .navbar-nav .nav-item {
+    display: inline-block;
+    float: none;
+  }
+}
+

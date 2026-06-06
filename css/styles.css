@@ -62,7 +62,6 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #2E3440;
   --bs-body-bg: #F8F7F3;
   --bs-border-width: 0.125rem;
   --bs-border-style: solid;
@@ -78,7 +77,7 @@
   --bs-link-hover-color: #9ea3ad;
   --bs-code-color: #b8bcc6;
   --bs-highlight-bg: rgba(255, 255, 255, 0.06);
-  --bs-body-color: #d7e2f2;
+  --bs-body-color: black;
   --bs-body-bg: #090f1a;
   --bs-border-color: rgba(255, 255, 255, 0.08);
   --bs-border-color-translucent: rgba(255, 255, 255, 0.12);
@@ -11083,7 +11082,7 @@ html {
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover,
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: var(--bs-primary);
+  color: var(--bs-white);
 }
 
 .masthead {
